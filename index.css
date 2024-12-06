@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:azure;
+}
+
+.container {
+    padding: 80px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1B244A;
+    border-radius: 10px;
+}
+
+#teams {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-team {
+    margin-right: 100px;
+}
+
+h3{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #EEEEEE;
+}
+
+.board { 
+    border: 3px solid #080001;
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+#leading {
+    border: 3px solid #F94F6D;
+}
+
+.points-home {
+    color: #F94F6D;
+}
+
+.points-guest {
+    color: #F94F6D
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 45px;
+    height: 45px;
+    text-decoration: none;
+    border: 2px solid #9AABD8;
+    background-color: inherit;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border-radius: 8px;
+}
